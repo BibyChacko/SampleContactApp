@@ -1,16 +1,9 @@
-# contact_application
+# SampleContactApp
+A simple contact application which reads contacts from phone(after seeking permission) and display as list. Calls can also be made to the contact
 
-A new Flutter project.
 
-## Getting Started
+#Package used:
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  contacts_service: ^0.6.3 (https://pub.dev/packages/contacts_service)
+  permission_handler: ^9.2.0 (https://pub.dev/packages/permission_handler)
+  url_launcher: ^6.1.2 (https://pub.dev/packages/url_launcher)
