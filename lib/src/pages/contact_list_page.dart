@@ -97,6 +97,7 @@ class _ContactListPageState extends State<ContactListPage> {
               title: const Text("Choose the number"),
               content: ListView.builder(
                 itemCount: phones.length,
+                shrinkWrap: true,
                 itemBuilder: (_,pos){
                   return ListTile(
                     onTap: (){
