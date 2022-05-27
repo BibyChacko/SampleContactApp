@@ -91,7 +91,7 @@ class _ContactListPageState extends State<ContactListPage> {
   }
 
   void showPhoneSelectorDialog(List<Item> phones) {
-    showDialog(context: context,
+    showCupertinoDialog(context: context,
         builder: (context){
             return AlertDialog(
               title: const Text("Choose the number"),
